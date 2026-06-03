@@ -106,39 +106,45 @@
         </section>
 
         <section id="about" class="about">
-            <div class="container about-grid">
-                <div class="about-image">
-                    <div class="image-wrapper">
-                        <!-- Image réelle du chantier -->
-                        <img src="IMG_0841.jpeg" alt="Rénovation de façade en cours par PR Façades & Peinture">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-side">
+                        <div class="image-showcase">
+                            <img src="Resized_20260521_095055.jpg" alt="Rénovation de façade par PR Façades & Peinture">
+                            <div class="stats-card">
+                                <span class="stats-num">20+</span>
+                                <span class="stats-txt">Ans d'Expérience</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="experience-badge">
-                        <span class="years">20+</span>
-                        <span class="text">Années<br>d'Excellence</span>
+                    
+                    <div class="about-content-side">
+                        <span class="subtitle">Pourquoi Nous Choisir ?</span>
+                        <h2>L'Excellence et la Rigueur pour Votre Façade</h2>
+                        <p class="about-intro">Nous vous accompagnons à chaque étape pour valoriser et protéger votre patrimoine avec des solutions sur-mesure adaptées au climat provençal.</p>
+                        
+                        <div class="commitments-grid">
+                            <div class="commitment-item">
+                                <div class="commitment-icon">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <div class="commitment-text">
+                                    <h4>Savoir-Faire Local</h4>
+                                    <p>Une expertise de plus de deux décennies dans les techniques traditionnelles et modernes adaptées au bâti provençal.</p>
+                                </div>
+                            </div>
+
+                            <div class="commitment-item">
+                                <div class="commitment-icon">
+                                    <i class="fa-solid fa-broom"></i>
+                                </div>
+                                <div class="commitment-text">
+                                    <h4>Chantier Propre</h4>
+                                    <p>Une protection complète des abords de votre maison, un nettoyage quotidien et un respect total de votre espace de vie.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="about-content">
-                    <span class="subtitle">L'Exigence du Travail Bien Fait</span>
-                    <h2>Votre Partenaire de Confiance en Provence</h2>
-                    <p>Derrière <strong>PR Façades & Peinture</strong> se trouve un savoir-faire transmis et
-                        perfectionné depuis plus de deux décennies. Nous ne sommes pas simplement des applicateurs de
-                        peinture ; nous sommes des techniciens du bâtiment passionnés par la préservation de votre
-                        patrimoine.</p>
-                    <p>Que vous possédiez un mas ancien à rénover ou une villa contemporaine à isoler, nous apportons la
-                        même rigueur : diagnostic précis, préparation minutieuse des supports et finitions
-                        irréprochables.</p>
-                    <ul class="features-list">
-                        <li><i class="fa-solid fa-check"></i> <strong>Savoir-faire local :</strong> Expertise des bâtis
-                            provençaux.</li>
-                        <li><i class="fa-solid fa-check"></i> <strong>Matériaux Premium :</strong> Utilisation de
-                            marques professionnelles reconnues (Seigneurie, Zolpan...).</li>
-                        <li><i class="fa-solid fa-check"></i> <strong>Garantie Décennale :</strong> Vos travaux couverts
-                            pendant 10 ans.</li>
-                        <li><i class="fa-solid fa-check"></i> <strong>Chantier Propre :</strong> Respect absolu de votre
-                            environnement.</li>
-                    </ul>
-                    <a href="#contact" class="btn-text">Discuter de votre projet <i
-                            class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
@@ -146,32 +152,161 @@
         <section id="realisations" class="portfolio">
             <div class="container">
                 <div class="section-header">
-                    <h2>Nos Dernières Réalisations</h2>
-                    <p>La preuve par l'image</p>
+                    <h2>Nos Réalisations</h2>
+                    <p>Découvrez notre savoir-faire en images et le détail de nos procédés de rénovation.</p>
                 </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item p1">
-                        <img src="IMG_0839.jpeg" alt="Rénovation de façade - Avant / Après">
-                        <div class="portfolio-overlay">
-                            <h3>Rénovation de Façade</h3>
-                            <p>Avant / Après spectaculaire</p>
+
+                <!-- Onglets principaux -->
+                <div class="portfolio-tabs">
+                    <button class="tab-btn active" data-tab="sliders"><i class="fa-solid fa-sliders"></i> Avant / Après Interactif</button>
+                    <button class="tab-btn" data-tab="process"><i class="fa-solid fa-layer-group"></i> Le Procédé ITE</button>
+                    <button class="tab-btn" data-tab="gallery"><i class="fa-solid fa-images"></i> Galerie de Projets</button>
+                </div>
+
+                <!-- Contenu Onglet : Sliders Avant / Après -->
+                <div class="tab-content active" id="sliders">
+                    <div class="sliders-container">
+                        <div class="slider-card">
+                            <h3>Ravalement Complet & Modernisation - Maison de Ville</h3>
+                            <p class="slider-desc">Transformation complète d'une façade ancienne dégradée en une finition moderne provençale.</p>
+                            <div class="comparison-slider">
+                                <img class="img-before" src="image00000511.jpg" alt="Façade avant rénovation">
+                                <img class="img-after" src="Resized_20260521_095055.jpg" alt="Façade après rénovation">
+                                <div class="slider-handle"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="portfolio-item p2">
-                        <img src="IMG_0840.jpeg" alt="Chantier de peinture extérieure">
-                        <div class="portfolio-overlay">
-                            <h3>Mise en Peinture</h3>
-                            <p>Finitions soignées</p>
-                        </div>
-                    </div>
-                    <div class="portfolio-item p3">
-                        <img src="IMG_0841.jpeg" alt="Détail rénovation et échafaudage">
-                        <div class="portfolio-overlay">
-                            <h3>Savoir-faire Artisanal</h3>
-                            <p>Technicité et précision</p>
+
+                        <div class="slider-card">
+                            <h3>Ravalement & Modernisation - B&B Hotels</h3>
+                            <p class="slider-desc">Mise en peinture complète des façades avec traitement de la structure et de l'escalier colimaçon métallique.</p>
+                            <div class="comparison-slider">
+                                <img class="img-before" src="Resized_Screenshot_20260601_135514_Gallery.jpg" alt="Hôtel avant rénovation">
+                                <img class="img-after" src="Resized_Screenshot_20260601_135459_Gallery.jpg" alt="Hôtel après rénovation">
+                                <div class="slider-handle"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Contenu Onglet : Le Procédé ITE -->
+                <div class="tab-content" id="process">
+                    <div class="process-container">
+                        <div class="process-nav">
+                            <div class="process-line"></div>
+                            <button class="process-step-btn active" data-step="1">
+                                <span class="step-num">1</span>
+                                <span class="step-title">Diagnostic & Prépa</span>
+                            </button>
+                            <button class="process-step-btn" data-step="2">
+                                <span class="step-num">2</span>
+                                <span class="step-title">Pose Isolation</span>
+                            </button>
+                            <button class="process-step-btn" data-step="3">
+                                <span class="step-num">3</span>
+                                <span class="step-title">Chevillage & Joints</span>
+                            </button>
+                            <button class="process-step-btn" data-step="4">
+                                <span class="step-num">4</span>
+                                <span class="step-title">Sous-Enduit Armé</span>
+                            </button>
+                            <button class="process-step-btn" data-step="5">
+                                <span class="step-num">5</span>
+                                <span class="step-title">Finition & Peinture</span>
+                            </button>
+                        </div>
+                        
+                        <div class="process-display">
+                            <div class="process-image-side">
+                                <div class="process-img-wrapper">
+                                    <img id="process-image" src="Resized_Screenshot_20260601_135439_Gallery.jpg" alt="Étape 1 : Diagnostic & Préparation">
+                                </div>
+                            </div>
+                            <div class="process-text-side">
+                                <span class="process-badge">Étape <span id="process-step-indicator">1</span> sur 5</span>
+                                <h3 id="process-title">Étape 1 : Diagnostic & Préparation du Support</h3>
+                                <p id="process-description">Avant toute intervention, nous effectuons un diagnostic précis des façades. Les murs sont nettoyés à haute pression pour éliminer les impuretés, les peintures cloquées et les mousses. Les fissures sont purgées et réparées pour garantir un support parfaitement sain, plan et adhérent.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contenu Onglet : Galerie de Projets -->
+                <div class="tab-content" id="gallery">
+                    <!-- Filtres de la galerie -->
+                    <div class="gallery-filters">
+                        <button class="filter-btn active" data-filter="all">Tous</button>
+                        <button class="filter-btn" data-filter="house">Maisons</button>
+                        <button class="filter-btn" data-filter="building">Immeubles & Hôtels</button>
+                        <button class="filter-btn" data-filter="deco">Déco & Métal</button>
+                    </div>
+
+                    <div class="gallery-grid">
+                        <!-- Projet Maison 1 -->
+                        <div class="gallery-item house">
+                            <div class="gallery-img-box">
+                                <img src="Resized_20260521_095055.jpg" alt="Maison de ville rénovée">
+                                <div class="gallery-overlay">
+                                    <h4>Maison de Ville</h4>
+                                    <p>Ravalement de façade moderne</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Projet Maison 2 -->
+                        <div class="gallery-item house">
+                            <div class="gallery-img-box">
+                                <img src="Resized_Screenshot_20260601_135443_Gallery.jpg" alt="Villa moderne provençale">
+                                <div class="gallery-overlay">
+                                    <h4>Maison Provençale</h4>
+                                    <p>Peinture extérieure et protection de façade</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Projet Immeuble 1 -->
+                        <div class="gallery-item building">
+                            <div class="gallery-img-box">
+                                <img src="Resized_Screenshot_20260601_135317_Gallery.jpg" alt="Façade moderne à grilles de béton">
+                                <div class="gallery-overlay">
+                                    <h4>Façade Brise-Soleil</h4>
+                                    <p>Ravalement de bâtiment résidentiel</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projet Déco 1 -->
+                        <div class="gallery-item deco">
+                            <div class="gallery-img-box">
+                                <img src="IMG_0839.jpeg" alt="Fresque murale forestière">
+                                <div class="gallery-overlay">
+                                    <h4>Fresque Décorative</h4>
+                                    <p>Peinture artistique intérieure</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Projet Déco 2 (Escalier B&B) -->
+                        <div class="gallery-item deco">
+                            <div class="comparison-slider" style="border-radius: 0; box-shadow: none; height: 100%;">
+                                <img class="img-before" src="Resized_Screenshot_20260601_135508_Gallery.jpg" alt="Escalier colimaçon avant">
+                                <img class="img-after" src="Resized_Screenshot_20260601_135503_Gallery.jpg" alt="Escalier colimaçon après">
+                                <div class="slider-handle"></div>
+                            </div>
+                            <div class="gallery-overlay" style="pointer-events: none;">
+                                <h4>Peinture de Structure</h4>
+                                <p>Escalier colimaçon (Avant / Après)</p>
+                            </div>
+                        </div>
+                        <!-- Projet Grand Bâtiment -->
+                        <div class="gallery-item building">
+                            <div class="gallery-img-box">
+                                <img src="IMG_0841.jpeg" alt="Grand bâtiment ocre et crème">
+                                <div class="gallery-overlay">
+                                    <h4>Façade Institutionnelle</h4>
+                                    <p>Enduit teinté et mise en propreté</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
